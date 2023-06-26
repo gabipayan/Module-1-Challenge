@@ -1,4 +1,4 @@
-# 🐛 Messages Not Logging to Console 
+# 🐛 Messages Not Logging to Console
 
 Work with a partner to resolve the following issue(s):
 
@@ -6,7 +6,8 @@ Work with a partner to resolve the following issue(s):
 
 ## Expected Behavior
 
-When a name is stored in the `chosenPet` variable, a message should log to the console indicating whether the pet is available and whether it is a dog or a cat. If the pet is not available, a message should indicate that and suggest the shelter's featured cat and dog. No errors should be returned. 
+When a name is stored in the `chosenPet` variable, a message should log to the console indicating the name stored in `chosenPet`. The message should also indicate whether the pet is a dog or a cat and indicate the availability of the dog or cat.If the pet is unavailable, display a message suggesting the shelter's featured animal, which is the first listed cat or dog.
+
 
 ## Actual Behavior
 
