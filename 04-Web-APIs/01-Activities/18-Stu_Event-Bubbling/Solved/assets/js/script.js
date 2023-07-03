@@ -1,19 +1,20 @@
-// TODO: Which element is the following line of code selecting?
+//  Selects carousel element
 var carousel = document.querySelector(".carouselbox");
-// TODO: Which element is the following line of code selecting?
+
+// Selects buttons using their parent carousel element
 var next = carousel.querySelector(".next");
 var prev = carousel.querySelector(".prev");
 var index = 0;
 var currentImage;
 
 var images = [
-  "https://picsum.photos/id/10/300/200",
-  "https://picsum.photos/id/20/300/201",
-  "https://picsum.photos/id/30/300/202",
-  "https://picsum.photos/id/47/300/203"
+  "https://picsum.photos/300/200",
+  "https://picsum.photos/300/201",
+  "https://picsum.photos/300/202",
+  "https://picsum.photos/300/203"
 ];
 
-carousel.style.backgroundImage = "url('https://picsum.photos/id/10/300/200')";
+carousel.style.backgroundImage = "url('https://picsum.photos/300/200')";
 
 function navigate(direction) {
   index = index + direction;
@@ -26,22 +27,22 @@ function navigate(direction) {
   carousel.style.backgroundImage = "url('" + currentImage + "')";
 }
 
-// TODO: Describe the functionality of the following event listener.
+// Clicking on image opens a new window containing the image
 carousel.addEventListener("click", function() {
   window.location.href = images[index];
 });
 
-// TODO: Describe the functionality of the following event listener.
+// Clicking on next button displays next image in carousel
 next.addEventListener("click", function(event) {
-  // TODO: What is the purpose of the following line of code?
+  // Stops event from bubbling up and new window opening
   event.stopPropagation();
 
   navigate(1);
 });
 
-// TODO: Describe the functionality of the following event listener.
+// Clicking previous displays previous image in carousel
 prev.addEventListener("click", function(event) {
-    // TODO: What would happen if we didn't add the following line of code?
+  // Event bubbling would occur and a new window would open if we did not include the following line of code.
   event.stopPropagation();
 
   navigate(-1);
