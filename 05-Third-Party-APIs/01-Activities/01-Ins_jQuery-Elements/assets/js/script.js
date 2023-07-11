@@ -57,5 +57,5 @@ console.log($('div'));
 
 // Alternatively use the `$.each` method
 // $.each(abilities, function(i, ability) {
-//    abilityEl.append("<div>" + ability + "</div>");
+//    rootEl.append("<div>" + ability + "</div>");
 // })
