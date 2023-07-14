@@ -6,7 +6,7 @@ Work with a partner to resolve the following issue(s):
 
 ## Expected Behavior
 
-A request to `script.js` displays a status of "Finished".
+A request to `script.js` displays a status of `200`.
 
 ## Actual Behavior
 
