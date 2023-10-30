@@ -36,5 +36,22 @@ export default function reducer(state, action) {
     default: {
       return state;
     }
+    case STOP_CAR: {
+      const carIndex = state.cars.findIndex(
+        (car) => car.id === action.payload.id
+      );
+      const updatedCar = {
+        ...state.cars[carIndex],
+        isRunning: false,
+      };
+
+      const carsCopy = [...state.cars];
+      carsCopy[carIndex] = updatedCar;
+
+      return {
+        ...state,
+        cars: carsCopy,
+      };
+    }
   }
 }
