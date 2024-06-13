@@ -8,15 +8,15 @@
 
   * Click on the `new` button to demonstrate how to create a new repository.
 
-  * Give the new repository the name `first-day-demo`.
+  * Select your profile from the “Owner” dropdown menu and give the new repository the name `first-day-demo`.
 
-  * Click on `add README` to add a README.md file.
+  * Select the "Add a README file" option to have GitHub create a new `README.md` file when creating the repository.
 
   * Click on `create repository`.
 
   * While the remote repo is now created, we need to pull down the repository to our machine to make changes to it.
 
-  * Click on the `code` button and select the HTTPS option under clone to copy the URL.
+  * Click on the `code` button and select the SSH option under clone to copy the URL.
 
 * Open up a terminal on your machine.
 
@@ -69,4 +69,4 @@
   ```
 
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

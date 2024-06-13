@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
 * It's done when the `container` has a background color of black.
 
-* It's done when `Section 4` and `Section 5` have a text color of white..
+* It's done when `Section 4` and `Section 5` have a text color of white.
 
 * It's done when `Section 6` has a text color of yellow.
 
@@ -49,4 +49,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

@@ -42,6 +42,13 @@ Work in your group to implement the following user stories:
 
 * It's done when the page is deployed to GitHub Pages.
 
+## Sample Page
+* The following screenshot is provided as an **example** of what you can do, but be creative! As long as you complete all of the acceptance criterions, any landing page is acceptable. 
+
+* Note: The **Coming Soon box** is an image that is provided in the `assets/image-1.png` directory. 
+
+![The landing page contains a header, footer, a main section page with an image provided to display in the middle of the screen. Some text and a Contact Me form is also included.](./assets/sample-page.png)
+
 ## 💡 Notes
 
 Follow these instructions to deploy your project to GitHub Pages:
@@ -52,13 +59,11 @@ Follow these instructions to deploy your project to GitHub Pages:
 
 3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
 
-4. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Source.
+4. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Branch. Click the Save button.
 
 5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
 
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
+> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an incorrect capital or lowercase letter could cause problems in deployment.
 
 ## 💡 Hints
 
@@ -90,4 +95,4 @@ Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

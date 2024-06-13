@@ -2,7 +2,7 @@
 
 In this activity, we will explore configuring the local Git default branch to `main`. We will also review another way to create a repository, using the `git init` command. Lastly, we will review the `git pull` command.
 
-Git is an important tool that allows developers to track and store versions of content. It also enables you to collaborate and share code with others. During this boot camp, you'll use Git to share code via a class repository, which you'll be required to pull down before each class. In addition, for each Challenge, you'll provide the grading team with a link to the GitHub repository that contains your code.
+Git is an important tool that allows developers to track and store versions of content. It also enables you to collaborate and share code with others. During this boot camp, you'll use Git to share code via a class repository, which you'll be required to pull down before each class. In addition, for the Challenges that aren't autograded, you'll provide a link to the GitHub repository that contains your code.
 
 For more information, review the [Full-Stack Blog guide on getting started with Git](https://coding-boot-camp.github.io/full-stack/git/getting-started-with-git).
 
@@ -87,7 +87,7 @@ Now if we run `git status` again, we should see that the file is being tracked a
 
 Now we are ready to connect the local repository to a remote repository on GitHub!
 
-To create a remote repository to store the code, navigate to [GitHub](https://github.com/) and create a new repository by clicking on the green New button at the top left and entering the project name, `git-init-sample`, in the "Repository Name" box.
+To create a remote repository to store the code, navigate to [GitHub](https://github.com/) and create a new repository by clicking on the green New button at the top left, selecting your user from the "Owner" dropdown, and entering the project name, `git-init-sample`, in the "Repository Name" box.
 
 > **Important**: Because we are importing an existing repository, make that sure none of the options are checked!
 
@@ -148,4 +148,4 @@ For more information, refer to the [Atlassian guide on setting up a repository](
 For more information, read the [Atlassian guide on git pull](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config).
 
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
