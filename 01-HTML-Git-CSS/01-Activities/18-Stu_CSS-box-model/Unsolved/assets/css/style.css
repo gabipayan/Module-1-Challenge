@@ -3,13 +3,28 @@ section {
   height: 600px;
   text-align: center;
   border: 15px solid black;
+  margin: 20px;
+  padding: 20px;
 }
 
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid blue;
   /* TODO: Add a margin property */
   /* TODO: Add a padding property */
   /* TODO: Add a border property */
 }
+
+
+
+/* It's done when each box has a defined `padding` property.
+
+* It's done when each box has a defined `margin` property.
+
+* It's done when each box has a defined `border` property.
+
+* It's done when the finished page matches the mockup.*/
